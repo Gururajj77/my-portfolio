@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Heebo";
+  src: url("Heebo/Heebo-VariableFont_wght.ttf");
+}
+
+a{
+  text-decoration: none;
+  color: red;
+}
+body{
+  background-color: black;
+}
+
+.container{
+  min-width: 280px;
+  max-width: 520px;
+  min-height: 95vh;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 1rem;
+  padding-top: 0.8rem;
+}
+
+.bio-card{
+  width: 95%;
+  min-height: 30vh;
+  overflow: auto;
+  background-color: gray;
+  border-radius: 0.8rem;
+  margin: 0 auto;
+}
+
+.bio-details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+  
+}
+
+.bio-details > p{
+  font-family:'Heebo';
+  color: white;
+}
+
+.bio-details >p:first-child{
+  font-size: 1.2rem;
+}
+
+.menu{
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.menu > ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+.menu > ul > li{
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+  font-family: 'Heebo';
+  cursor: pointer;
+}
+
+.bio-details-card > p{
+  font-family: "Heebo";
+  /* padding: 2rem; */
+}
+
+.details {
+  font-family: "Heebo";
+  padding: 1.5rem;
+}
+
+#proj-details > ul> li{
+  margin-bottom: 1rem;
+}
+
+#about-details > ul >li{
+  margin-bottom: 2rem;
+}
+
